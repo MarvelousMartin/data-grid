@@ -1,9 +1,9 @@
 {
-	"name": "miloslavkostir/datagrid",
+	"name": "marvelousmartin/datagrid",
 	"type": "library",
-	"description": "DataGrid for Nette Framework based on Niftyx/NiftyGrid.",
-	"keywords": ["datagrid", "nette"],
-	"homepage": "http://addons.nette.org/cs/niftygrid",
+	"description": "DataGrid for Laravel Framework based on Niftyx/NiftyGrid.",
+	"keywords": ["datagrid", "laravel"],
+	"homepage": "https://addons.nette.org/cs/niftygrid",
 	"license": ["BSD-3-Clause"],
 	"authors": [
 		{
@@ -12,11 +12,15 @@
 		{
 			"name": "Miloslav Koštíř",
 			"email": "miloslav.kostir@gmail.com"
+		},
+		{
+			"name": "Martin Dub",
+			"email": "oakk.martin@gmail.com"
 		}
 	],
 	"require": {
-		"php" : ">=5.3.2",
-		"nette/nette" : "^2.3.0"
+		"php" : ">=8.2",
+		"laravel/framework": "^10.0"
 	},
 	"autoload": {
 		"classmap": ["src/"]
